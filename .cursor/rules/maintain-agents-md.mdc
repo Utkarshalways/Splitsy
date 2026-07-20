@@ -1,0 +1,19 @@
+---
+description: Keep AGENTS.md in sync with project changes
+alwaysApply: true
+---
+
+# Maintain AGENTS.md
+
+This project uses `AGENTS.md` at the repo root as the living project brief for agents.
+
+When you complete work that changes any of the following, update `AGENTS.md` in the same session:
+
+- New or completed features (move items between **Current progress** and **Future roadmap**)
+- Dependencies (`package.json`)
+- API routes, database schema, or env vars
+- Folder structure or architecture
+
+Also bump the **Last updated** date at the top of `AGENTS.md`.
+
+Keep entries concise. Reference file paths instead of pasting large code blocks.
